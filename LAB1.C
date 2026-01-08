@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void main()
+int main()
 {
     int a, b, c, largest;
     cout << "Enter 3 No's";
@@ -15,4 +15,5 @@ void main()
         largest = c;
 
     cout << "largest No is " << largest;
+    return 0;
 }
